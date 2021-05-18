@@ -18,12 +18,13 @@
   * 安装配置 zookeeper ：[clay_wangzhi.zookeeper](https://github.com/clay-wangzhi/ansible-role-zookeeper) 
   * 安装配置 kafka ：[clay_wangzhi.kafka](https://github.com/clay-wangzhi/ansible-role-kafka)
   * 安装配置 filebeat ：[elastic.beats](https://github.com/elastic/ansible-beats)
+* 二进制方式 安装配置 kubernetes 集群：https://github.com/easzlab/kubeasz
 
 ## Usage
 
 Install this collection locally:
 
-    ansible-galaxy collection install geerlingguy.k8s -p ./collections
+    ansible-galaxy collection install git+https://github.com/clay-wangzhi/ansible-collection-devops.git -p ./collections
 
 Then you can use the roles from the collection in your playbooks:
 
@@ -46,22 +47,6 @@ Then you can use the roles from the collection in your playbooks:
 
 > If you want to be more explicit, you can use the fully-qualified role name when referring to a role in this collection, like `geerlingguy.k8s.kubernetes` instead of just `kubernetes`. This could be helpful if, for example, you maintain a separate `kubernetes` role in another place on your local workstation.
 
-## Development
-
-Currently, all the Kubernetes roles (inside `roles/`) are Git submodules, and work on the roles themselves should take place in the upstream Role repository. At some point, the roles might move into this repository for their canonical home.
-
-This collection has some integration tests (inside `molecule/`), however, which pull all the roles together and ensure they work in tandem on the latest supported platforms.
-
-To run a particular test scenario, you need to install molecule and the OpenShift Python client (`pip install molecule openshift`), then you can run:
-
-    molecule test -s [scenario]
-
-For example, to run the k8s_manifests role test scenario:
-
-    molecule test -s test-manifests
-
-If you would like to develop the collection or leave a scenario running for debugging, use `molecule converge` to run the scenario but not tear down the local test environment.
-
 ### Pushing a new version
 
 Before tagging a new version, make sure all the git submodules are up to date:
@@ -76,5 +61,5 @@ Once pushed, if tests pass, Travis CI will deploy the new collection version usi
 
 ## Author
 
-This collection was created in 2019 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/) and [Ansible for Kubernetes](https://www.ansibleforkubernetes.com).
+This collection was created in 2021 by Clay.
 
