@@ -1,0 +1,3 @@
+[submodule "roles/sysinit"]
+	path = roles/sysinit
+	url = https://github.com/clay-wangzhi/ansible-role-sysinit.git
