@@ -5,7 +5,8 @@
 * 初始化服务器配置：[clay_wangzhi.sysinit](https://github.com/clay-wangzhi/ansible-role-sysinit)
 * 安装配置 jenkins ：[clay_wangzhi.jenkins](https://github.com/clay-wangzhi/ansible-role-jenkins)
 
-* 安装配置 mysql 主从 ：[clay_wangzhi.mysql](https://github.com/clay-wangzhi/ansible-role-mysql)
+* 安装配置 mysql 主从：[clay_wangzhi.mysql](https://github.com/clay-wangzhi/ansible-role-mysql)
+* 安装配置 tomcat ：[clay_wangzhi.tomcat](https://github.com/clay-wangzhi/ansible-role-tomcat)
 
 ## Usage
 

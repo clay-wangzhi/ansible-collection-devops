@@ -7,3 +7,6 @@
 [submodule "roles/mysql"]
 	path = roles/mysql
 	url = https://github.com/clay-wangzhi/ansible-role-mysql.git
+[submodule "roles/tomcat"]
+	path = roles/tomcat
+	url = https://github.com/clay-wangzhi/ansible-role-tomcat.git
