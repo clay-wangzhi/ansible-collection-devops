@@ -1,14 +1,9 @@
-# Kubernetes Collection for Ansible
+# DevOps Collection for Ansible
 
-[![Build Status](https://travis-ci.com/geerlingguy/ansible-collection-k8s.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-collection-k8s)
+这个`Collection`包括：
 
-This collection contains Kubernetes-related roles and Ansible plugins and modules maintained by Jeff Geerling (geerlingguy).
-
-It includes:
-
-  - [geerlingguy.kubernetes](https://github.com/geerlingguy/ansible-role-kubernetes)
-  - [geerlingguy.k8s_manifests](https://github.com/geerlingguy/ansible-role-k8s_manifests)
-  - [geerlingguy.helm](https://github.com/geerlingguy/ansible-role-helm)
+* 初始化服务器配置：[clay_wangzhi.sysinit](https://github.com/clay-wangzhi/ansible-role-sysinit)
+* 安装配置 jenkins ：[clay_wangzhi.jenkins](https://github.com/clay-wangzhi/ansible-role-jenkins)
 
 ## Usage
 
