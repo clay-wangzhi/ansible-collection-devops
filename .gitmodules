@@ -19,3 +19,21 @@
 [submodule "roles/zabbix-proxy"]
 	path = roles/zabbix-proxy
 	url = https://github.com/dj-wasabi/ansible-zabbix-proxy.git
+[submodule "roles/elasticsearch"]
+	path = roles/elasticsearch
+	url = https://github.com/elastic/ansible-elasticsearch.git
+[submodule "roles/kibana"]
+	path = roles/kibana
+	url = https://github.com/clay-wangzhi/ansible-role-kibana.git
+[submodule "roles/logstash"]
+	path = roles/logstash
+	url = https://github.com/clay-wangzhi/ansible-role-logstash.git
+[submodule "roles/zookeeper"]
+	path = roles/zookeeper
+	url = https://github.com/clay-wangzhi/ansible-role-zookeeper.git
+[submodule "roles/kafka"]
+	path = roles/kafka
+	url = https://github.com/clay-wangzhi/ansible-role-kafka.git
+[submodule "roles/filebeat"]
+	path = roles/filebeat
+	url = https://github.com/elastic/ansible-beats.git

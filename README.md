@@ -11,6 +11,13 @@
   * 安装配置 zabbix-server ：[dj-wasabi.zabbix-server](https://github.com/dj-wasabi/ansible-zabbix-server)
   * 安装配置 zabbix-proxy ：[dj-wasabi.zabbix-proxy](https://github.com/dj-wasabi/ansible-zabbix-proxy)
   * 安装配置 zabbix-agent ：[dj-wasabi.zabbix-agent](https://github.com/dj-wasabi/ansible-zabbix-agent)
+* 安装配置 elk ：[docs](docs/ansible-install-elk.md)
+  * 安装配置 elasticsearch ：[elastic.elasticsearch](https://github.com/elastic/ansible-elasticsearch)
+  * 安装配置 kibana ：[clay_wangzhi.kibana](https://github.com/clay-wangzhi/ansible-role-kibana)
+  * 安装配置 logstash ：[clay_wangzhi.logstash](https://github.com/clay-wangzhi/ansible-role-logstash)
+  * 安装配置 zookeeper ：[clay_wangzhi.zookeeper](https://github.com/clay-wangzhi/ansible-role-zookeeper) 
+  * 安装配置 kafka ：[clay_wangzhi.kafka](https://github.com/clay-wangzhi/ansible-role-kafka)
+  * 安装配置 filebeat ：[elastic.beats](https://github.com/elastic/ansible-beats)
 
 ## Usage
 
