@@ -7,6 +7,10 @@
 
 * 安装配置 mysql 主从：[clay_wangzhi.mysql](https://github.com/clay-wangzhi/ansible-role-mysql)
 * 安装配置 tomcat ：[clay_wangzhi.tomcat](https://github.com/clay-wangzhi/ansible-role-tomcat)
+* 安装配置 zabbix
+  * 安装配置 zabbix-server ：[dj-wasabi.zabbix-server](https://github.com/dj-wasabi/ansible-zabbix-server)
+  * 安装配置 zabbix-proxy ：[dj-wasabi.zabbix-proxy](https://github.com/dj-wasabi/ansible-zabbix-proxy)
+  * 安装配置 zabbix-agent ：[dj-wasabi.zabbix-agent](https://github.com/dj-wasabi/ansible-zabbix-agent)
 
 ## Usage
 
