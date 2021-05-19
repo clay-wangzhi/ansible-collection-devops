@@ -32,7 +32,7 @@ Then you can use the roles from the collection in your playbooks:
     - hosts: all
     
       collections:
-        - geerlingguy.k8s
+        - clay_wangzhi.devops
     
       roles:
         - kubernetes
