@@ -5,7 +5,7 @@
 
   vars:
     # This should be set via the command line at runtime.
-    tag: 'v1.0'
+    tag: '0.1.0'
 
   pre_tasks:
     - name: Verify none of the git submodules need updates.
