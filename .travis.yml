@@ -23,8 +23,9 @@ before_script:
   - mv ansible-collection-$COLLECTION_NAME ansible_collections/$COLLECTION_NAMESPACE/$COLLECTION_NAME
   - cd ansible_collections/$COLLECTION_NAMESPACE/$COLLECTION_NAME
 
-#script:
+script:
 #  # Run tests.
+  echo foo
 #  - ansible-test integration --color --docker geerlingguy/docker-$DISTRO-ansible:latest --python-interpreter $PYTHON_INTERPRETER
 
 deploy:
