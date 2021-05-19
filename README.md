@@ -35,8 +35,8 @@ Then you can use the roles from the collection in your playbooks:
         - clay_wangzhi.devops
     
       roles:
+        - zookeeper
         - kafka
-        - helm
         - role: k8s_manifests
           vars:
             k8s_manifests_base_dir: ''
