@@ -13,8 +13,8 @@
 [submodule "roles/zabbix-server"]
 	path = roles/zabbix-server
 	url = https://github.com/dj-wasabi/ansible-zabbix-server.git
-[submodule "roles/zabbix-agent"]
-	path = roles/zabbix-agent
+[submodule "roles/zabbix_agent"]
+	path = roles/zabbix_agent
 	url = https://github.com/dj-wasabi/ansible-zabbix-agent.git
 [submodule "roles/zabbix-proxy"]
 	path = roles/zabbix-proxy
