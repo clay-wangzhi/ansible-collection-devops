@@ -24,28 +24,28 @@
 
 Install this collection locally:
 
-    ansible-galaxy collection install git+https://github.com/clay-wangzhi/ansible-collection-devops.git -p ./collections
+    ansible-galaxy collection install clay_wangzhi.devops
 
 Then you can use the roles from the collection in your playbooks:
 
     ---
-    - hosts: all
+    - hosts: test
     
       collections:
         - clay_wangzhi.devops
     
       roles:
-        - zookeeper
-        - kafka
-        - role: k8s_manifests
-          vars:
-            k8s_manifests_base_dir: ''
-            k8s_manifests:
-              - monitoring/prometheus
-              - dir: docker-registry
-                namespace: registry
+        - sysinit
 
-> If you want to be more explicit, you can use the fully-qualified role name when referring to a role in this collection, like `geerlingguy.k8s.kubernetes` instead of just `kubernetes`. This could be helpful if, for example, you maintain a separate `kubernetes` role in another place on your local workstation.
+> If you want to be more explicit, you can use the fully-qualified role name when referring to a role in this collection, like `clay_wangzhi.devops.sysinit` instead of just `sysinit`. This could be helpful if, for example, you maintain a separate `sysinit` role in another place on your local workstation.
+>
+> ```
+> ---
+> - hosts: test
+> 
+>   roles:
+>     - clay_wangzhi.devops.sysinit
+> ```
 
 ### Pushing a new version
 
